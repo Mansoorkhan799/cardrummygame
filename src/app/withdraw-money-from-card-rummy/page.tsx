@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Withdraw Money from Card Rummy? | Fast & Secure Withdrawal Guide',
     description: 'Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
-    url: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
+    url: 'https://cardrummygame.com.pk/withdraw-money-from-card-rummy',
     siteName: 'Card Rummy',
     type: 'article',
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'Learn how to withdraw money from Card Rummy using our complete withdrawal guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
+    canonical: 'https://cardrummygame.com.pk/withdraw-money-from-card-rummy',
   },
 };
 
@@ -48,7 +48,7 @@ export default function WithdrawMoneyPage() {
             <div className="mt-10 flex justify-center">
               <div className="relative w-48 h-48 md:w-56 md:h-56">
                 <Image
-                  src="/card-rummy.webp"
+                  src="/card-rummy-game-2026.webp"
                   alt="Card Rummy - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger."
                   title="Card Rummy – Withdraw Money via JazzCash & EasyPaisa"
                   width={224}
@@ -256,7 +256,7 @@ export default function WithdrawMoneyPage() {
                   What is the minimum amount that we can withdraw from the Card Rummy Game?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  You can easily withdraw a minimum of Rs 100 from your Card Rummy account, as it supports withdrawals of that amount.
+                  You can withdraw a minimum of PKR 200 from your Card Rummy account via JazzCash, EasyPaisa, or bank transfer.
                 </p>
               </div>
 
@@ -331,38 +331,38 @@ export default function WithdrawMoneyPage() {
             "@graph": [
               {
                 "@type": "Article",
-                "@id": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy#article",
+                "@id": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy#article",
                 "headline": "How to Withdraw Money from Card Rummy?",
                 "description": "Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Card. Learn the complete withdrawal process for secure cash out.",
-                "url": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy",
+                "url": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy",
                 "articleBody": "Card Rummy is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. You can withdraw funds to JazzCash, EasyPaisa, or Bank Card. For Bank Card, choose your bank, enter account number, user name, and email. Maximum withdrawal via Bank Card is PKR 20,000. The process takes 9 steps: open app, click wallet, choose withdraw, type amount, select payment method, enter details, confirm, wait for processing, then check your account.",
-                "author": { "@type": "Organization", "name": "Card Rummy", "url": "https://cardrummyapp.com.pk" },
+                "author": { "@type": "Organization", "name": "Card Rummy", "url": "https://cardrummygame.com.pk" },
                 "publisher": {
                   "@type": "Organization",
                   "name": "Card Rummy",
                   "logo": {
                   "@type": "ImageObject",
-                  "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+                  "url": "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp",
                   ...imageObjectLicensing,
                   "creditText": "Card Rummy logo"
                 }
                 },
                 "datePublished": "2026-01-01",
                 "dateModified": "2026-03-13",
-                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy" },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy" },
                 "inLanguage": "en-US",
                 "hasPart": {
                   "@type": "HowTo",
-                  "@id": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy#howto",
+                  "@id": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy#howto",
                   "name": "Withdraw Money from Card Rummy"
                 }
               },
               {
                 "@type": "HowTo",
-                "@id": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy#howto",
+                "@id": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy#howto",
                 "name": "How to Withdraw Money from Card Rummy",
                 "description": "Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Card.",
-                "url": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy",
+                "url": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy",
                 "totalTime": "PT5M",
                 "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "0" },
                 "step": [
@@ -379,9 +379,9 @@ export default function WithdrawMoneyPage() {
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy#faq",
+                "@id": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy#faq",
                 "mainEntity": [
-                  { "@type": "Question", "name": "What is the minimum amount that we can withdraw from the Card Rummy Game?", "acceptedAnswer": { "@type": "Answer", "text": "You can easily withdraw a minimum of Rs 100 from your Card Rummy account, as it supports withdrawals of that amount." } },
+                  { "@type": "Question", "name": "What is the minimum amount that we can withdraw from the Card Rummy Game?", "acceptedAnswer": { "@type": "Answer", "text": "The minimum withdrawal on Card Rummy is PKR 200 per transaction via JazzCash, EasyPaisa, or bank transfer." } },
                   { "@type": "Question", "name": "How long does Card Rummy take to send withdrawals?", "acceptedAnswer": { "@type": "Answer", "text": "Card Rummy usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues." } },
                   { "@type": "Question", "name": "What should we do if our payout fails on Card Rummy?", "acceptedAnswer": { "@type": "Answer", "text": "If your withdrawal fails on Card Rummy, contact its customer support team to approve your withdrawal." } },
                   { "@type": "Question", "name": "How to bind bank?", "acceptedAnswer": { "@type": "Answer", "text": "To bind your bank for withdrawals, go to Wallet > Withdrawal > Bank Card. Select your desired bank from the list, then enter your account number, user name, and email. Once submitted, your bank account will be linked and ready for withdrawals." } },
@@ -399,8 +399,8 @@ export default function WithdrawMoneyPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummyapp.com.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Withdraw Money from Card Rummy", "item": "https://cardrummyapp.com.pk/withdraw-money-from-card-rummy" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Withdraw Money from Card Rummy", "item": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy" }
             ]
           })
         }}

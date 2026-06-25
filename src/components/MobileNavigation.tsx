@@ -71,7 +71,7 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
               <div className="relative w-8 h-8 flex-shrink-0">
                 <Image
-                  src="/card-rummy.webp"
+                  src="/card-rummy-game-2026.webp"
                   alt="Card Rummy Logo"
                   fill
                   sizes="(max-width: 768px) 32px, 40px"

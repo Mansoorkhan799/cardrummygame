@@ -25,23 +25,31 @@ const nextConfig = {
 
   async redirects() {
     return [
-      // /about was indexed by Google but the real page is /about-us
-      {
-        source: '/about',
-        destination: '/about-us',
-        permanent: true,
-      },
-      // Malformed URLs Google crawled — send them home
-      {
-        source: '/\\$',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/\\&',
-        destination: '/',
-        permanent: true,
-      },
+      { source: '/about', destination: '/about-us', permanent: true },
+      { source: '/\\$', destination: '/', permanent: true },
+      { source: '/\\&', destination: '/', permanent: true },
+      // Old blog URLs → current pages (preserve link equity)
+      { source: '/blog/create-card-rummy-account-and-login', destination: '/blog/how-to-register-bind-email-card-rummy', permanent: true },
+      { source: '/blog/tips-to-win-big-in-card-rummy', destination: '/blog/card-rummy-tips-tricks-to-win', permanent: true },
+      { source: '/blog/card-rummy-tips-10-smart-tricks', destination: '/blog/card-rummy-tips-tricks-to-win', permanent: true },
+      { source: '/blog/card-rummy-safe-legal-pakistan', destination: '/blog/is-card-rummy-safe-legal-pakistan', permanent: true },
+      { source: '/blog/andar-bahar-guide', destination: '/blog/andar-bahar-rules-tricks', permanent: true },
+      { source: '/blog/seven-up-down-game-guide', destination: '/blog/7-up-down-game-guide', permanent: true },
+      { source: '/blog/card-rummy-jazzcash-guide', destination: '/blog/card-rummy-jazzcash-withdrawal', permanent: true },
+      { source: '/blog/card-rummy-easypaisa-guide', destination: '/blog/card-rummy-easypaisa-deposit-withdraw', permanent: true },
+      { source: '/blog/responsible-gaming-guide-card-rummy', destination: '/blog/responsible-gaming-guide', permanent: true },
+      { source: '/blog/card-rummy-latest-version-new-features-2026-updates', destination: '/blog/card-rummy-latest-version-v1230', permanent: true },
+      { source: '/blog/card-rummy-old-version-features-review-2026', destination: '/blog/card-rummy-old-versions-archive', permanent: true },
+      { source: '/blog/card-rummy-app-review-2026', destination: '/', permanent: true },
+      { source: '/blog/how-to-use-card-rummy-app-pakistan-guide-2026', destination: '/blog/beginners-guide-online-card-games-pakistan', permanent: true },
+      { source: '/blog/ways-to-earn-money-with-card-rummy-2026', destination: '/blog/card-rummy-referral-program', permanent: true },
+      { source: '/blog/ips-exceed-issue-card-rummy-how-to-fix', destination: '/blog/card-rummy-login-problems-fixes', permanent: true },
+      { source: '/blog/dragon-vs-tiger-andar-bahar-high-payout-games', destination: '/blog/dragon-vs-tiger-strategy', permanent: true },
+      { source: '/blog/card-rummy-bonuses-vip-guide', destination: '/blog/card-rummy-vip-levels', permanent: true },
+      { source: '/blog/3patti-blue-vs-card-rummy', destination: '/blog/card-rummy-vs-competitors', permanent: true },
+      { source: '/blog/3patti-gold-vs-card-rummy', destination: '/blog/card-rummy-vs-competitors', permanent: true },
+      { source: '/blog/3patti-lucky-vs-card-rummy', destination: '/blog/card-rummy-vs-competitors', permanent: true },
+      { source: '/blog/3patti-room-vs-card-rummy', destination: '/blog/card-rummy-vs-competitors', permanent: true },
     ];
   },
 

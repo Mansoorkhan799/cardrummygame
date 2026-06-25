@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy - Card Rummy',
     description: 'Learn how Card Rummy protects your personal information and data.',
-    url: 'https://cardrummyapp.com.pk/privacy',
+    url: 'https://cardrummygame.com.pk/privacy',
     siteName: 'Card Rummy',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/privacy',
+    canonical: 'https://cardrummygame.com.pk/privacy',
   },
 };
 
@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Privacy Policy</h1>
-            <p className="text-lg text-gray-400">Last Updated: January 3, 2026</p>
+            <p className="text-lg text-gray-400">Last Updated: 11 June 2026</p>
           </div>
           
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
               <div className="bg-[#0A1029] border-l-4 border-accent rounded-r-lg p-6 mb-8">
                 <h2 className="text-2xl font-bold mb-4 text-white">Introduction</h2>
                 <p className="text-gray-300 mb-4">
-                  <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.cardrummyapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a> (collectively, the "Service").
+                  <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.cardrummygame.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummygame.com.pk</a> (collectively, the "Service").
               </p>
                 <p className="text-gray-300">
                 Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy.
@@ -162,7 +162,7 @@ export default function PrivacyPolicyPage() {
                   <li><strong className="text-white">Right to Withdraw Consent:</strong> Withdraw consent for data processing at any time</li>
               </ul>
                 <p className="text-gray-300 mt-4">
-                  To exercise any of these rights, please contact us at <a href="mailto:support@cardrummyapp.com.pk" className="text-accent hover:underline">support@cardrummyapp.com.pk</a>
+                  To exercise any of these rights, please contact us at <a href="mailto:support@cardrummygame.com.pk" className="text-accent hover:underline">support@cardrummygame.com.pk</a>
               </p>
               </div>
               
@@ -213,14 +213,14 @@ export default function PrivacyPolicyPage() {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                     <strong className="text-white mr-2">Email:</strong>
-                    <a href="mailto:support@cardrummyapp.com.pk" className="text-accent hover:underline">support@cardrummyapp.com.pk</a>
+                    <a href="mailto:support@cardrummygame.com.pk" className="text-accent hover:underline">support@cardrummygame.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd"/>
                     </svg>
                     <strong className="text-white mr-2">Website:</strong>
-                    <a href="https://www.cardrummyapp.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>
+                    <a href="https://www.cardrummygame.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.cardrummygame.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -233,9 +233,33 @@ export default function PrivacyPolicyPage() {
               </ul>
               </div>
               
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Editorial & Review Data</h2>
+              <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
+                <p className="text-gray-300 mb-4">
+                  We publish independent reviews based on hands-on testing. Our documented 14-day Card Rummy test used a Vivo Y200, a PKR 1,000 deposit, and 2× PKR 500 withdrawals. See our <Link href="/about-us" className="text-accent hover:underline">About Us</Link> page for author details.
+                </p>
+                <p className="text-gray-300">
+                  Download links may use affiliate tracking. This does not change app pricing for you. Read our <Link href="/terms" className="text-accent hover:underline">Terms of Service</Link>.
+                </p>
+              </div>
+
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Age Restriction</h2>
+              <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
+                <p className="text-gray-300">
+                  This website and the Card Rummy app are intended for users aged <strong className="text-white">18 and over</strong> only. We do not knowingly collect data from minors.
+                </p>
+              </div>
+
+              <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Cookies & Analytics</h2>
+              <div className="bg-[#0A1029] rounded-xl p-6 mb-8">
+                <p className="text-gray-300">
+                  We may use cookies and analytics tools (such as Google Analytics when enabled) to understand site traffic and improve content. You can disable cookies in your browser settings.
+                </p>
+              </div>
+              
               <div className="bg-[#0A1029] rounded-xl p-6 mt-8 text-center">
                 <p className="text-gray-400 text-sm mb-4">
-                  By using Card Rummy, you consent to this Privacy Policy and agree to its terms.
+                  By using cardrummygame.com.pk, you consent to this Privacy Policy and agree to its terms. See also our <Link href="/terms" className="text-accent hover:underline">Terms of Service</Link> and <Link href="/disclaimer" className="text-accent hover:underline">Disclaimer</Link>.
                 </p>
                 <p className="text-gray-400 text-sm">
                   © 2026 Card Rummy. All rights reserved.

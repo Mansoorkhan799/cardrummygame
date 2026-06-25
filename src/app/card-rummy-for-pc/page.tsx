@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/card-rummy-for-pc",
+    canonical: "https://cardrummygame.com.pk/card-rummy-for-pc",
   },
   openGraph: {
     title: 'Card Rummy for PC Download Latest Version Free 2026',
     description: 'Download Card Rummy for PC using Android Emulator. Play on bigger screen with better performance.',
-    url: "https://cardrummyapp.com.pk/card-rummy-for-pc",
+    url: "https://cardrummygame.com.pk/card-rummy-for-pc",
     siteName: "Card Rummy",
     locale: "en_US",
     type: "website",
@@ -39,43 +39,88 @@ export const metadata: Metadata = {
 };
 
 export default function CardRummyForPCPage() {
-  // Schema.org structured data for PC version page
+  const pageUrl = "https://cardrummygame.com.pk/card-rummy-for-pc";
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "Card Rummy for PC Download Latest Version Free 2026",
-    "description": "Complete guide to download and play Card Rummy on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Card Rummy",
-      "url": "https://cardrummyapp.com.pk"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Card Rummy",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-        ...imageObjectLicensing,
-        "creditText": "Card Rummy logo"
-      }
-    },
-    "datePublished": "2026-01-03",
-    "dateModified": "2026-01-03",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://cardrummyapp.com.pk/card-rummy-for-pc"
-    },
-    "about": {
-      "@type": "SoftwareApplication",
-      "name": "Card Rummy",
-      "operatingSystem": "Windows 7 or higher",
-      "applicationCategory": "GameApplication"
-    },
-    "articleSection": "Gaming",
-    "keywords": "Card Rummy for PC, Card Rummy PC download, BlueStacks, Android Emulator, Teen Patti PC",
-    "inLanguage": "en-US"
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": `${pageUrl}#article`,
+        headline: "Card Rummy for PC Download Latest Version Free 2026",
+        description: "Complete guide to download and play Card Rummy on PC using Android emulator. Learn about system requirements, best emulators, and features.",
+        image: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp",
+        author: {
+          "@type": "Organization",
+          name: "Card Rummy",
+          url: "https://cardrummygame.com.pk",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Card Rummy",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp",
+            ...imageObjectLicensing,
+            creditText: "Card Rummy logo",
+          },
+        },
+        datePublished: "2026-01-03",
+        dateModified: "2026-06-11",
+        mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+        about: {
+          "@type": "SoftwareApplication",
+          name: "Card Rummy",
+          operatingSystem: "Windows 7 or higher",
+          applicationCategory: "GameApplication",
+        },
+        articleSection: "Gaming",
+        keywords: "Card Rummy for PC, Card Rummy PC download, BlueStacks, Android Emulator, Teen Patti PC",
+        inLanguage: "en-US",
+      },
+      {
+        "@type": "HowTo",
+        "@id": `${pageUrl}#howto`,
+        name: "How to Play Card Rummy on PC",
+        description: "Install Card Rummy on Windows using an Android emulator.",
+        totalTime: "PT15M",
+        step: [
+          { "@type": "HowToStep", name: "Download an Android Emulator", text: "Install BlueStacks or LDPlayer on your Windows PC." },
+          { "@type": "HowToStep", name: "Download Card Rummy APK", text: "Download Card Rummy V1.231 APK from cardrummygame.com.pk." },
+          { "@type": "HowToStep", name: "Install APK in Emulator", text: "Drag the APK into the emulator or use the Install APK option." },
+          { "@type": "HowToStep", name: "Open Card Rummy", text: "Launch Card Rummy from the emulator home screen." },
+          { "@type": "HowToStep", name: "Log In and Play", text: "Register or log in and play Teen Patti, Rummy, and more on a bigger screen." },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Can I play Card Rummy on PC?",
+            acceptedAnswer: { "@type": "Answer", text: "Yes — install an Android emulator like BlueStacks and sideload the Card Rummy APK." },
+          },
+          {
+            "@type": "Question",
+            name: "Which emulator is best for Card Rummy?",
+            acceptedAnswer: { "@type": "Answer", text: "BlueStacks is recommended for performance. LDPlayer is a good lightweight alternative for low-end PCs." },
+          },
+          {
+            "@type": "Question",
+            name: "Is Card Rummy for PC free?",
+            acceptedAnswer: { "@type": "Answer", text: "Yes — the APK download is free. Real-money play requires a deposit from PKR 100." },
+          },
+        ],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://cardrummygame.com.pk" },
+          { "@type": "ListItem", position: 2, name: "Card Rummy for PC", item: pageUrl },
+        ],
+      },
+    ],
   };
 
   return (
@@ -83,20 +128,7 @@ export default function CardRummyForPCPage() {
       {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummyapp.com.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Card Rummy for PC", "item": "https://cardrummyapp.com.pk/card-rummy-for-pc" }
-            ]
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData).replace(/</g, "\\u003c") }}
       />
       
       {/* Hero Section */}
@@ -119,7 +151,7 @@ export default function CardRummyForPCPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
             <Image
-              src="/card-rummy.webp"
+              src="/card-rummy-game-2026.webp"
               alt="Card Rummy for PC – Play on Windows with Android Emulator"
               title="Card Rummy for PC – Download & Play on Windows"
               width={320}
@@ -227,7 +259,7 @@ export default function CardRummyForPCPage() {
           <div className="space-y-4">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-white mb-2">Step 1:</h3>
-              <p className="text-gray-300">First, find the official website of Card Rummy, like <Link href="/" className="text-[#0ea5e9] hover:underline">www.cardrummyapp.com.pk</Link>.</p>
+              <p className="text-gray-300">First, find the official website of Card Rummy, like <Link href="/" className="text-[#0ea5e9] hover:underline">www.cardrummygame.com.pk</Link>.</p>
             </div>
 
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
@@ -456,31 +488,6 @@ export default function CardRummyForPCPage() {
               </div>
             </details>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-gradient-to-r from-[#0ea5e9] to-[#6366f1] rounded-2xl p-8 md:p-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Ready to Play on PC?
-          </h2>
-          <p className="text-xl text-white mb-8 opacity-90">
-            Download Card Rummy and install it using your favorite emulator!
-          </p>
-          <a 
-            href="https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-[#0ea5e9] hover:bg-gray-100 font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
-          >
-            <span className="text-lg">DOWNLOAD FOR PC</span>
-            <div className="ml-3 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
         </div>
       </section>
 

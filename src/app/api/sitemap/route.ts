@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://cardrummygame.com.pk';
   
   // Define page type
   type PageType = {
@@ -25,12 +25,12 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/card-rummy.webp',
+          loc: '/card-rummy-game-2026.webp',
           title: 'Card Rummy - Official App Icon and Brand Image',
           caption: "Card Rummy - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger. Download Card Rummy APK for Android."
         },
         {
-          loc: '/card-rummy-logo.webp',
+          loc: '/card-rummy-game-win-real-money-2026.webp',
           title: 'Card Rummy Official Logo',
           caption: "Official Card Rummy logo - Pakistan's premier card gaming platform"
         }
@@ -43,7 +43,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
+          loc: '/card-rummy-game-2026.webp',
           title: 'Download Card Rummy',
           caption: 'Download Card Rummy APK for Android'
         }
@@ -68,7 +68,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
+          loc: '/card-rummy-game-2026.webp',
           title: 'Card Rummy for PC',
           caption: 'Play Card Rummy on PC using Android Emulator'
         }
@@ -81,7 +81,7 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/card-rummy.webp',
+          loc: '/card-rummy-game-2026.webp',
           title: 'About Card Rummy',
           caption: 'Learn about Card Rummy gaming platform'
         }
@@ -94,7 +94,7 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/card-rummy.webp',
+          loc: '/card-rummy-game-2026.webp',
           title: 'Card Rummy Blog',
           caption: 'Guides and tutorials for Card Rummy gaming platform'
         }
@@ -235,6 +235,96 @@ export async function GET() {
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
+    },
+    // New Game Guide pages
+    {
+      url: '/blog/how-to-play-teen-patti',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/rummy-rules-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/dragon-vs-tiger-strategy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/mines-game-strategy',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/andar-bahar-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/teen-patti-variations',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/seven-up-down-game-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    // New Bonus & Promo pages
+    {
+      url: '/blog/card-rummy-welcome-bonus',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/card-rummy-vip-levels',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    // New Payment pages
+    {
+      url: '/blog/card-rummy-jazzcash-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    {
+      url: '/blog/card-rummy-easypaisa-guide',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    // New Comparison pages
+    {
+      url: '/blog/best-teen-patti-apps-pakistan-2026',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    // New Trust/Safety pages
+    {
+      url: '/blog/card-rummy-safe-legal-pakistan',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.9
+    },
+    // New Version pages
+    {
+      url: '/blog/card-rummy-latest-version-v1230',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.9
     },
   ];
 

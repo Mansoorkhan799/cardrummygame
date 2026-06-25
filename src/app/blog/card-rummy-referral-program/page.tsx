@@ -3,294 +3,219 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Card Rummy Referral Program: Earn More by Inviting Friends & Family 2026',
-  description:
-    'Learn how the Card Rummy referral program works: invite friends and family, share your code, earn chips and commission. Official tips for Pakistan players.',
-  keywords: [
-    'Card Rummy referral',
-    'Card Rummy invite friends',
-    'Card Rummy referral code',
-    'Card Rummy earn commission',
-    '3 Patti Card Rummy referral',
-    'Card Rummy Pakistan referral',
-    'refer and earn Card Rummy',
-    'Card Rummy referral bonus 2026',
-  ],
+  title: "Card Rummy Referral Program — How to Earn PKR 50+ Per Friend 2026",
+  description: "Earn PKR 50 for every friend who deposits on Card Rummy, plus ongoing commission on their gameplay. Complete referral program guide for Pakistani players in 2026.",
+  keywords: ["card rummy referral", "card rummy refer and earn", "card rummy invite friends", "card rummy referral code pakistan", "card rummy referral bonus 2026"],
+  alternates: { canonical: "https://cardrummygame.com.pk/blog/card-rummy-referral-program" },
   openGraph: {
-    title: 'Card Rummy Referral Program: Earn More by Inviting Friends & Family',
-    description:
-      'Share Card Rummy with friends and family and earn extra rewards. How referral codes work, signup steps, and tips to maximize your earnings.',
-    type: 'article',
-    url: 'https://cardrummyapp.com.pk/blog/card-rummy-referral-program',
+    title: "Card Rummy Referral Program — Earn PKR 50+ Per Friend 2026",
+    description: "Earn PKR 50 direct bonus per friend + 1–3% ongoing commission on their gameplay. Full referral guide for Card Rummy Pakistan 2026.",
+    url: "https://cardrummygame.com.pk/blog/card-rummy-referral-program",
+    images: [{ url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp", width: 1200, height: 630, alt: "Card Rummy Referral Program Earn PKR 50 Per Friend 2026" }]
   },
-  alternates: {
-    canonical: 'https://cardrummyapp.com.pk/blog/card-rummy-referral-program',
-  },
-  robots: { index: true, follow: true },
+  twitter: { card: "summary_large_image", title: "Card Rummy Referral Program — PKR 50 Per Friend 2026", description: "Refer friends to Card Rummy and earn PKR 50 + ongoing commission. Complete guide inside." },
+  robots: { index: true, follow: true }
 };
 
-const articleBodySummary =
-  'Card Rummy offers a referral program so you can earn more by inviting friends and family. Share your referral link or code from the app; when someone signs up and plays, you can receive bonus chips or commission. New users often get extra rewards when they enter a valid code at registration. Combine referrals with daily login bonuses, welcome offers, and gameplay on Teen Patti, Rummy, and Dragon vs Tiger. Always download from the official site and use JazzCash, EasyPaisa, or Bank Card for withdrawals as described in the app.';
+const DOWNLOAD_URL = "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272";
 
-export default function BlogCardRummyReferralProgram() {
+export default function CardRummyReferralProgram() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <>
       <BlogPostSchema
-        title="Card Rummy Referral Program: Earn More by Inviting Friends and Family"
-        description={articleBodySummary}
+        title="Card Rummy Referral Program — How to Earn PKR 50+ Per Friend 2026"
+        description="Earn PKR 50 for every friend who deposits on Card Rummy, plus ongoing commission on their gameplay. Complete referral program guide for Pakistani players in 2026."
         slug="card-rummy-referral-program"
-        datePublished="2026-03-13"
-        articleBody={articleBodySummary}
+        datePublished="2026-06-11"
+        dateModified="2026-06-11"
+        articleBody="The Card Rummy referral program rewards you with PKR 50 for every friend who registers using your unique referral link and makes their first deposit. In addition to the direct PKR 50 bonus, you earn an ongoing commission of 1–3% on your referred friends' gameplay losses. There is no limit on the number of friends you can refer. Commissions are calculated daily and credited to your wallet. Your referral link can be found in My Account → Invite Friends. Withdrawing referral earnings follows the same process as regular withdrawals, with a minimum of PKR 200."
       />
-      <article className="container mx-auto px-4 py-12 max-w-4xl">
-        <nav className="mb-8 text-sm text-gray-400">
-          <Link href="/" className="hover:text-[#FFA500]">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-[#FFA500]">
-            Blog
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-white">Referral Program</span>
+      <article className="py-8 px-4 md:px-8 max-w-4xl mx-auto">
+        <nav className="text-sm text-gray-400 mb-6 flex flex-wrap gap-1">
+          <Link href="/" className="hover:text-[#FFC107]">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FFC107]">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-300">Card Rummy Referral Program</span>
         </nav>
 
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Card Rummy Referral Program: Earn More by Inviting Friends and Family
+        <header className="mb-8">
+          <span className="inline-block bg-[#FFC107]/10 border border-[#FFC107]/30 rounded-full text-[#FFC107] text-xs px-3 py-1 uppercase tracking-wide mb-4">Refer & Earn</span>
+          <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-3">
+            Card Rummy Referral Program — How to Earn PKR 50+ Per Friend 2026
           </h1>
-          <div className="flex items-center gap-4 text-gray-400 text-sm">
-            <time dateTime="2026-03-13">March 13, 2026</time>
-            <span>•</span>
-            <span>12 min read</span>
-          </div>
+          <p className="text-gray-400 text-sm">By Card Rummy Team &nbsp;·&nbsp; Updated June 2026 &nbsp;·&nbsp; 7 min read</p>
         </header>
 
-        <div className="prose prose-invert prose-lg max-w-none">
-          <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            If you already enjoy{' '}
-            <Link href="/" className="text-[#FFA500] hover:underline font-semibold">
-              Card Rummy
-            </Link>
-            —Pakistan&apos;s popular platform for Teen Patti, Rummy, Dragon vs Tiger, and dozens of other games—the referral program is one of the easiest ways to grow your balance without extra tables. Join{' '}
-            <span className="text-[#FFA500] font-semibold">500K+</span> players who use bonuses, daily rewards, and invites to get more from the app. This guide explains how referrals work, how to use a code at signup, and how to invite friends and family safely.
+        {/* Overview */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">How the Referral Program Works</h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Card Rummy&apos;s referral program is one of the most rewarding ways to earn on the platform — even when you are not actively playing. Every time a friend joins through your unique referral link and makes their first deposit, you receive a <strong className="text-white">PKR 50 instant bonus</strong>. Beyond that, you earn an <strong className="text-white">ongoing commission of 1–3%</strong> on their future gameplay activity.
           </p>
-
-          <div className="bg-gradient-to-r from-purple-800/50 to-orange-600/50 rounded-lg p-8 my-8">
-            <p className="text-white text-lg mb-4">
-              <strong>Quick takeaways</strong>
-            </p>
-            <ul className="list-disc pl-6 text-white space-y-2">
-              <li>Every player gets a personal referral link or code inside the app</li>
-              <li>New users can enter a friend&apos;s code when they register for bonus chips</li>
-              <li>When referrals play and recharge, you can earn commission or rewards (see in-app rules)</li>
-              <li>Works alongside welcome bonus, daily bonus, and VIP perks</li>
-            </ul>
+          <div className="grid md:grid-cols-3 gap-4">
+            {[
+              { label: "Direct Bonus", value: "PKR 50", sub: "Per depositing friend" },
+              { label: "Ongoing Commission", value: "1–3%", sub: "Of friend's gameplay" },
+              { label: "Referral Limit", value: "Unlimited", sub: "Refer as many as you like" },
+            ].map((item) => (
+              <div key={item.label} className="bg-[#06091F] rounded-xl p-4 border border-gray-800 text-center">
+                <div className="text-[#FFC107] text-xl font-bold mb-1">{item.value}</div>
+                <div className="text-white text-sm font-medium">{item.label}</div>
+                <div className="text-gray-400 text-xs mt-1">{item.sub}</div>
+              </div>
+            ))}
           </div>
+        </section>
 
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">What is the Card Rummy referral program?</h2>
-          <p className="text-gray-300 mb-4">
-            The referral program is the official way to invite others to{' '}
-            <Link href="/download-card-rummy" className="text-[#FFA500] hover:underline font-semibold">
-              download Card Rummy
-            </Link>{' '}
-            and join using your link or code. When someone you invited signs up correctly and becomes active, both sides can benefit: newcomers often receive extra chips to try tables, and you can earn referral rewards or commission depending on current promotions.
-          </p>
-          <p className="text-gray-300 mb-6">
-            On the homepage we highlight that you can earn without only playing tables—by sharing your referral link, you receive commission when friends start playing. That is the same idea: grow the community and get rewarded for it.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">How the referral system works</h2>
-          <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
-            <li>
-              <strong>Register and log in</strong> to the Card Rummy app on your Android device.
+        {/* Step-by-Step */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">5 Steps to Share & Earn</h2>
+          <ol className="space-y-4 text-gray-300 leading-relaxed">
+            <li className="flex gap-3">
+              <span className="bg-[#FFC107] text-black text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">1</span>
+              <div><strong className="text-white">Find Your Referral Link:</strong> Open Card Rummy → tap your profile icon → select <em>My Account</em> → tap <em>Invite Friends</em>. Your unique referral link is displayed here.</div>
             </li>
-            <li>
-              Open the <strong>Refer &amp; Earn</strong> (or similar) section—often under profile, wallet, or promotions.
+            <li className="flex gap-3">
+              <span className="bg-[#FFC107] text-black text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">2</span>
+              <div><strong className="text-white">Copy or Share the Link:</strong> Tap <em>Copy Link</em> to copy it to your clipboard, or use the <em>Share</em> button to send directly via WhatsApp, SMS, or any social platform.</div>
             </li>
-            <li>
-              <strong>Copy your code</strong> or share the invitation link via WhatsApp, SMS, or social apps.
+            <li className="flex gap-3">
+              <span className="bg-[#FFC107] text-black text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">3</span>
+              <div><strong className="text-white">Friend Downloads & Registers:</strong> Your friend taps the link, downloads Card Rummy V1.231 (49 MB), and completes registration. They are automatically linked to your account.</div>
             </li>
-            <li>
-              Your friend installs the app from a <strong>trusted source</strong> (official site) and enters your code where the app asks for it.
+            <li className="flex gap-3">
+              <span className="bg-[#FFC107] text-black text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">4</span>
+              <div><strong className="text-white">Friend Makes First Deposit:</strong> As soon as your friend deposits (minimum PKR 100), <strong className="text-white">PKR 50 is instantly credited to your wallet</strong>. No waiting, no approval needed.</div>
             </li>
-            <li>
-              After they meet the conditions (signup, first play, or recharge—check the in-app description), <strong>rewards are credited</strong> according to the live rules.
+            <li className="flex gap-3">
+              <span className="bg-[#FFC107] text-black text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">5</span>
+              <div><strong className="text-white">Earn Ongoing Commission:</strong> Every day your friend plays on Card Rummy, you earn a percentage of their net losses as commission. This is credited to your wallet daily.</div>
             </li>
           </ol>
-          <p className="text-gray-300 mb-6">
-            Tracking is handled inside the app, so you can see pending and completed referral activity without spreadsheets or manual claims in most cases.
+        </section>
+
+        {/* Commission Calculation */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">How Commissions Are Calculated</h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Commissions range from <strong className="text-white">1% to 3%</strong> of your referred friends&apos; net gameplay losses per day. The exact rate depends on your own VIP level — higher VIP tiers earn higher commission percentages. Commissions are calculated overnight and credited to your main wallet the following morning.
           </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">How to use a referral code when you sign up</h2>
-          <p className="text-gray-300 mb-4">
-            If a friend or family member shared their code with you, use it during registration so both of you qualify for the right bonuses:
-          </p>
-          <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li>
-              <Link href="/download-card-rummy" className="text-[#FFA500] hover:underline font-semibold">
-                Download the official Card Rummy APK
-              </Link>{' '}
-              and install it.
-            </li>
-            <li>Start registration with your mobile number or guest flow, as the app shows.</li>
-            <li>When you see the referral or invite field, <strong>paste the code</strong> exactly.</li>
-            <li>Finish OTP or verification steps and complete your profile if asked.</li>
-            <li>Claim welcome or referral-related bonuses from the promotions area, then explore games like Teen Patti and Rummy.</li>
-          </ul>
-          <p className="text-gray-300 mb-6">
-            For a full walkthrough, see our{' '}
-            <Link
-              href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026"
-              className="text-[#FFA500] hover:underline font-semibold"
-            >
-              beginner&apos;s guide to the Card Rummy app
-            </Link>
-            .
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Referral rewards and bonuses</h2>
-          <p className="text-gray-300 mb-4">
-            Rewards are usually paid as <strong>chips or in-game balance</strong> so you can join more tables and sessions. Amounts and tiers change with campaigns—always read the Referral screen for the latest numbers. Referral income stacks well with other earning paths covered in our{' '}
-            <Link
-              href="/blog/ways-to-earn-money-with-card-rummy-2026"
-              className="text-[#FFA500] hover:underline font-semibold"
-            >
-              ways to earn money with Card Rummy
-            </Link>{' '}
-            article and the{' '}
-            <Link href="/blog/card-rummy-bonuses-vip-guide" className="text-[#FFA500] hover:underline font-semibold">
-              bonuses &amp; VIP guide
-            </Link>
-            .
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Benefits of inviting friends and family</h2>
-          <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li>Extra chips without always depositing more yourself</li>
-            <li>More people to play and compare strategies with</li>
-            <li>Official rewards through the app—not random third-party &quot;double coin&quot; scams</li>
-            <li>Combines naturally with daily login bonuses and referral commissions described on our site</li>
-          </ul>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Is the referral program for Pakistan players?</h2>
-          <p className="text-gray-300 mb-6">
-            Card Rummy is built for Pakistani players using local wallets. Bonuses and referrals are managed inside the official app. Always install from{' '}
-            <Link href="/" className="text-[#FFA500] hover:underline font-semibold">
-              cardrummyapp.com.pk
-            </Link>{' '}
-            or the link you trust, and avoid unofficial APKs that promise impossible referral payouts. For withdrawals, the app supports methods such as JazzCash, EasyPaisa, and Bank Card—see our{' '}
-            <Link href="/withdraw-money-from-card-rummy" className="text-[#FFA500] hover:underline font-semibold">
-              withdrawal guide
-            </Link>{' '}
-            for steps.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">How much can you earn from referrals?</h2>
-          <p className="text-gray-300 mb-6">
-            There is no fixed public cap that fits every account: earnings depend on how many people you invite, how often they play, and whether they recharge. Heavy referrers who share with active card-game fans typically see better results than one-off invites. Check the in-app referral dashboard for your tier, percentage, or fixed rewards.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Steps to invite friends on the app</h2>
-          <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
-            <li>Open Card Rummy and log in.</li>
-            <li>Go to Refer &amp; Earn / Invite / Share (wording may vary by version).</li>
-            <li>Copy your code or tap &quot;Share link.&quot;</li>
-            <li>Send it to friends or family on WhatsApp, SMS, or social media.</li>
-            <li>Remind them to enter the code during signup if the app requires it.</li>
-            <li>After they qualify, claim or wait for automatic credit as per rules.</li>
-          </ol>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">New users vs existing players</h2>
-          <p className="text-gray-300 mb-4">
-            <strong>New users</strong> benefit from referral codes at registration—extra chips help you learn Teen Patti, Rummy, and other modes without pressure.
-          </p>
-          <p className="text-gray-300 mb-6">
-            <strong>Existing players</strong> keep earning by inviting more people. You do not need to change how you play; you add another income stream next to table wins and bonuses.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Tips to maximize referral rewards</h2>
-          <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li>Share with people who actually enjoy card games—activity matters.</li>
-            <li>Pair referrals with your own daily login and task bonuses.</li>
-            <li>Keep the app updated so share links and tracking work correctly.</li>
-            <li>Explain honestly that games involve risk; encourage responsible play.</li>
-          </ul>
-          <p className="text-gray-300 mb-6">
-            More tactics:{' '}
-            <Link href="/blog/card-rummy-tips-10-smart-tricks" className="text-[#FFA500] hover:underline font-semibold">
-              10 smart tricks
-            </Link>{' '}
-            and{' '}
-            <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-[#FFA500] hover:underline font-semibold">
-              tips to win big
-            </Link>
-            .
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Bonus not received—what to check</h2>
-          <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li>Confirm your friend used your code in the correct step (usually signup).</li>
-            <li>Check if they must complete first login, identity steps, or a small recharge.</li>
-            <li>Restart the app or update to the latest version.</li>
-            <li>Use in-app support or{' '}
-              <Link href="/contact-us" className="text-[#FFA500] hover:underline font-semibold">
-                contact us
-              </Link>{' '}
-              if something still looks wrong.
-            </li>
-          </ul>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Safety and authenticity</h2>
-          <p className="text-gray-300 mb-6">
-            Only trust referral rewards that appear inside the official Card Rummy app. Ignore websites or people promising guaranteed cash outside the app. Our{' '}
-            <Link href="/blog/is-card-rummy-real-or-fake" className="text-[#FFA500] hover:underline font-semibold">
-              real or fake guide
-            </Link>{' '}
-            explains how to spot unofficial copies.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Building a stronger Card Rummy community</h2>
-          <p className="text-gray-300 mb-6">
-            Inviting friends and family makes the lobby feel more social: you can compare progress, share tips for Dragon vs Tiger or Andar Bahar, and enjoy the same fast withdrawals the platform is known for—JazzCash, EasyPaisa, and Bank Card for eligible users.
-          </p>
-
-          <h2 className="text-3xl font-bold text-white mt-12 mb-6">Conclusion</h2>
-          <p className="text-gray-300 mb-6">
-            The Card Rummy referral program is a practical way to earn more by inviting friends and family while they discover a trusted card-gaming app in Pakistan. Use your code responsibly, combine it with other bonuses, and always play within your budget.{' '}
-            <Link
-              href="https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#FFA500] hover:underline font-semibold"
-            >
-              Download Card Rummy
-            </Link>{' '}
-            to open Refer &amp; Earn and start sharing today.
-          </p>
-
-          <div className="border border-gray-700 rounded-xl p-6 mt-10 not-prose">
-            <h3 className="text-xl font-bold text-white mb-3">Related reading</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>
-                <Link href="/blog/card-rummy-bonuses-vip-guide" className="text-[#FFA500] hover:underline">
-                  Bonuses &amp; VIP guide
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/ways-to-earn-money-with-card-rummy-2026" className="text-[#FFA500] hover:underline">
-                  Ways to earn money with Card Rummy
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/how-to-use-card-rummy-app-pakistan-guide-2026" className="text-[#FFA500] hover:underline">
-                  How to use the app (Pakistan)
-                </Link>
-              </li>
-            </ul>
+          <div className="bg-[#06091F] rounded-xl p-4 border border-gray-800 mb-4">
+            <p className="text-[#FFC107] font-semibold mb-2 text-sm">Real Example:</p>
+            <p className="text-gray-300 text-sm">You refer 10 friends. Each deposits PKR 500 → you earn PKR 50 × 10 = <strong className="text-white">PKR 500 in direct bonuses</strong>. Each friend plays PKR 1,000/week and loses PKR 300. At 2% commission that is PKR 6/friend/week × 10 friends = <strong className="text-white">PKR 60/week in ongoing commissions</strong>, indefinitely.</p>
           </div>
-        </div>
+          <p className="text-gray-300 text-sm leading-relaxed">
+            Commission earnings appear in your wallet under the <em>Referral Earnings</em> section and can be withdrawn at any time once they exceed the PKR 200 minimum.
+          </p>
+        </section>
+
+        {/* Tracking & Withdrawing */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Tracking Referrals & Withdrawing Earnings</h2>
+          <p className="text-gray-300 leading-relaxed mb-3">
+            Card Rummy provides a <strong className="text-white">referral dashboard</strong> inside the app where you can see the number of friends registered through your link, how many have deposited, and your total commission earned to date. Access it via <em>My Account → Invite Friends → Referral Stats</em>.
+          </p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="bg-[#06091F] rounded-xl p-4 border border-gray-800">
+              <h3 className="text-white font-semibold mb-2 text-sm">Referral Dashboard Shows</h3>
+              <ul className="text-gray-300 text-sm space-y-1">
+                <li>• Total friends registered</li>
+                <li>• Friends who have deposited</li>
+                <li>• Direct bonuses earned (PKR 50 each)</li>
+                <li>• Commission earned today / total</li>
+                <li>• Total referral earnings (withdrawable)</li>
+              </ul>
+            </div>
+            <div className="bg-[#06091F] rounded-xl p-4 border border-gray-800">
+              <h3 className="text-white font-semibold mb-2 text-sm">Withdrawing Referral Earnings</h3>
+              <ul className="text-gray-300 text-sm space-y-1">
+                <li>• Same process as regular withdrawal</li>
+                <li>• Minimum withdrawal: PKR 200</li>
+                <li>• Maximum daily withdrawal: PKR 50,000</li>
+                <li>• Withdraw via JazzCash, EasyPaisa, or bank</li>
+                <li>• No separate wagering requirement on referral earnings</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Tips for Sharing */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Tips for Sharing Your Referral Link</h2>
+          <div className="space-y-3 text-gray-300 text-sm leading-relaxed">
+            {[
+              ["WhatsApp Groups", "Share your referral link in family and friends WhatsApp groups. A short personal message explaining the app works far better than just sending a link. Mention the welcome bonus your friend will receive."],
+              ["Personal Recommendation", "The most effective referrals come from a genuine recommendation. Tell friends exactly what games you play and how much you have won — authentic stories convert much better than generic promotional messages."],
+              ["Social Media Bio Links", "Add your referral link to your Instagram or Facebook bio with a short description. Anyone who checks your profile can register directly."],
+              ["Honest Promotion Only", "Never make misleading claims about guaranteed winnings. Responsible promotion builds trust and attracts players who will stay — generating you ongoing commission long-term."],
+            ].map(([title, body], i) => (
+              <div key={i} className="flex gap-3 bg-[#06091F] rounded-xl p-4 border border-gray-800">
+                <span className="text-[#FFC107] font-bold min-w-[1.5rem]">{i + 1}.</span>
+                <div>
+                  <strong className="text-white">{title}:</strong> {body}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mb-6">
+          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-5">
+            {[
+              ["When is the PKR 50 referral bonus credited?", "Within minutes of your friend making their first deposit. You will receive a notification and can see it immediately in your wallet."],
+              ["What if my friend registers but never deposits?", "The PKR 50 direct bonus only triggers on the first deposit. If your friend registers but never deposits, no direct bonus is earned. However, they remain linked to your account — the moment they deposit in the future, you receive the PKR 50."],
+              ["Can I refer myself using a second account?", "No. Card Rummy detects and blocks self-referrals using device fingerprinting and SIM verification. Creating multiple accounts violates terms and both accounts will be suspended."],
+              ["Is there a limit on the total referral earnings I can withdraw?", "No specific cap exists on total referral earnings. Standard withdrawal limits apply: minimum PKR 200, maximum PKR 50,000 per day."],
+            ].map(([q, a], i) => (
+              <div key={i}>
+                <h3 className="text-white font-semibold mb-1">Q: {q}</h3>
+                <p className="text-gray-300 leading-relaxed text-sm">A: {a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="bg-gradient-to-r from-[#0A1029] to-[#1a2040] rounded-2xl border border-[#FFC107]/30 p-8 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-white mb-3">Start Earning With Referrals Today</h2>
+          <p className="text-gray-300 mb-6">Download Card Rummy, register, and share your referral link. Earn PKR 50 per depositing friend plus ongoing commission — no limit on earnings.</p>
+          <a
+            href={DOWNLOAD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#FFC107] text-black font-bold px-6 py-3 rounded-full hover:bg-yellow-400 transition-colors"
+          >
+            Download Card Rummy — Free
+          </a>
+          <div className="mt-4 flex justify-center gap-6 text-sm text-gray-400 flex-wrap">
+            <Link href="/blog/card-rummy-welcome-bonus" className="hover:text-[#FFC107]">Welcome Bonus</Link>
+            <Link href="/blog/card-rummy-vip-levels" className="hover:text-[#FFC107]">VIP Levels</Link>
+            <Link href="/withdraw-money-from-card-rummy" className="hover:text-[#FFC107]">Withdrawal Guide</Link>
+          </div>
+        </section>
+
+        {/* Related Articles */}
+        <section className="bg-[#0A1029] rounded-2xl border border-gray-800 p-6 mt-8">
+          <h2 className="text-xl font-bold text-white mb-4">Related Articles</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { href: '/blog/card-rummy-welcome-bonus', title: 'Card Rummy Welcome Bonus Explained' },
+              { href: '/blog/card-rummy-vip-levels', title: 'Card Rummy VIP Levels & Rebates Explained' },
+              { href: '/blog/card-rummy-free-chips-daily-rewards', title: 'Card Rummy Free Chips & Daily Rewards Guide' },
+              { href: '/blog/card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026 — Latest Offers' },
+              { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },
+            ].map(link => (
+              <Link key={link.href} href={link.href} className="flex items-center gap-2 text-[#FFC107] hover:underline text-sm font-medium">
+                <span className="flex-shrink-0">→</span>
+                <span>{link.title}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
       </article>
-    </main>
+    </>
   );
 }

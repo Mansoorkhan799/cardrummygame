@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Disclaimer - Card Rummy',
     description: 'Legal disclaimer and important information about Card Rummy.',
-    url: 'https://cardrummyapp.com.pk/disclaimer',
+    url: 'https://cardrummygame.com.pk/disclaimer',
     siteName: 'Card Rummy',
     type: 'website',
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: 'Legal disclaimer and important information about Card Rummy.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/disclaimer',
+    canonical: 'https://cardrummygame.com.pk/disclaimer',
   },
   robots: {
     index: true,
@@ -58,7 +58,11 @@ export default function Disclaimer() {
               {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://www.cardrummyapp.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on this blog (<a href="https://www.cardrummygame.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.cardrummygame.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                </p>
+
+                <p className="text-lg leading-relaxed">
+                  This site may contain affiliate links to the Card Rummy app. We may earn a commission on qualifying downloads at no extra cost to you. Our test results are based on independent hands-on review, not paid placement. See our <Link href="/terms" className="text-accent hover:underline font-semibold">Terms of Service</Link>.
                 </p>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
@@ -142,7 +146,7 @@ export default function Disclaimer() {
             "@type": "WebPage",
             "name": "Disclaimer - Card Rummy",
             "description": "Legal disclaimer and important information about Card Rummy website.",
-            "url": "https://cardrummyapp.com.pk/disclaimer"
+            "url": "https://cardrummygame.com.pk/disclaimer"
           })
         }}
       />

@@ -27,7 +27,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cardrummyapp.com.pk'),
+  metadataBase: new URL('https://cardrummygame.com.pk'),
   title: {
     default: "Card Rummy Pakistan v1.231 Free Download Official APK",
     template: "%s | Card Rummy"
@@ -80,11 +80,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
-      { url: '/card-rummy-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/card-rummy.webp', type: 'image/webp', sizes: '1024x1024' }
+      { url: '/card-rummy-game-win-real-money-2026.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/card-rummy-game-2026.webp', type: 'image/webp', sizes: '1024x1024' }
     ],
     apple: [
-      { url: '/card-rummy-logo.webp', sizes: '180x180' }
+      { url: '/card-rummy-game-win-real-money-2026.webp', sizes: '180x180' }
     ],
     shortcut: [
       { url: '/favicon.ico', type: 'image/x-icon' }
@@ -94,24 +94,24 @@ export const metadata: Metadata = {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk",
+    canonical: "https://cardrummygame.com.pk",
   },
   openGraph: {
     title: "Card Rummy Pakistan v1.231 Free Download Official APK",
     description: "Card Rummy 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
-    url: "https://cardrummyapp.com.pk",
+    url: "https://cardrummygame.com.pk",
     siteName: "Card Rummy",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image.webp",
+        url: "https://cardrummygame.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Card Rummy - Premier Card Gaming Platform",
       },
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image-square.webp",
+        url: "https://cardrummygame.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
         alt: "Card Rummy - Premier Card Gaming Platform",
@@ -125,7 +125,7 @@ export const metadata: Metadata = {
     creator: "@cardrummy",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/twitter-card.webp",
+        url: "https://cardrummygame.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
         alt: "Card Rummy - Premier Card Gaming Platform",
@@ -149,9 +149,9 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/card-rummy-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/card-rummy.webp" type="image/webp" sizes="1024x1024" />
-        <link rel="apple-touch-icon" href="/card-rummy-logo.webp" sizes="180x180" />
+        <link rel="icon" href="/card-rummy-game-win-real-money-2026.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/card-rummy-game-2026.webp" type="image/webp" sizes="1024x1024" />
+        <link rel="apple-touch-icon" href="/card-rummy-game-win-real-money-2026.webp" sizes="180x180" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -204,6 +204,26 @@ export default function RootLayout({
         <ScrollToTopWrapper />
         <WebVitalsTracker />
         
+        {/* Site navigation — supports Google sitelink discovery */}
+        <Script
+          id="site-navigation-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": "Card Rummy Site Navigation",
+              "itemListElement": [
+                { "@type": "SiteNavigationElement", "position": 1, "name": "Minimum Requirements for Card Rummy", "url": "https://cardrummygame.com.pk/minimum-requirements-for-card-rummy" },
+                { "@type": "SiteNavigationElement", "position": 2, "name": "How to Play and Earn on Card Rummy", "url": "https://cardrummygame.com.pk/how-to-play-and-earn-on-card-rummy" },
+                { "@type": "SiteNavigationElement", "position": 3, "name": "Download Card Rummy APK", "url": "https://cardrummygame.com.pk/download-card-rummy" },
+                { "@type": "SiteNavigationElement", "position": 4, "name": "Deposit Money in Card Rummy", "url": "https://cardrummygame.com.pk/deposit-money-in-card-rummy" },
+                { "@type": "SiteNavigationElement", "position": 5, "name": "Withdraw Money from Card Rummy", "url": "https://cardrummygame.com.pk/withdraw-money-from-card-rummy" }
+              ]
+            })
+          }}
+        />
+
         {/* Structured data for Organization */}
         <Script
           id="organization-schema"
@@ -213,8 +233,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
-              "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+              "url": "https://cardrummygame.com.pk",
+              "logo": "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp",
               "description": "Card Rummy is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
               "sameAs": [
                 "https://facebook.com/cardrummy",

@@ -31,7 +31,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/card-rummy.webp"
+              src="/card-rummy-game-2026.webp"
               alt="Card Rummy Logo"
               width={40}
               height={40}

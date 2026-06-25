@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://cardrummygame.com.pk';
   
   // This API route ensures consistent robots.txt across all URL variations
   // (HTTP/HTTPS, www/non-www). Matches the static file exactly.
-  const robotsTxt = `# robots.txt for cardrummyapp.com.pk
+  const robotsTxt = `# robots.txt for cardrummygame.com.pk — Updated 2026-06-11
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -47,6 +47,18 @@ Allow: /blog
 Allow: /blog/is-card-rummy-real-or-fake
 Allow: /blog/create-card-rummy-account-and-login
 Allow: /blog/tips-to-win-big-in-card-rummy
+Allow: /blog/how-to-play-teen-patti
+Allow: /blog/rummy-rules-guide
+Allow: /blog/dragon-vs-tiger-strategy
+Allow: /blog/andar-bahar-guide
+Allow: /blog/teen-patti-variations
+Allow: /blog/mines-game-strategy
+Allow: /blog/card-rummy-welcome-bonus
+Allow: /blog/card-rummy-jazzcash-guide
+Allow: /blog/card-rummy-easypaisa-guide
+Allow: /blog/best-teen-patti-apps-pakistan-2026
+Allow: /blog/card-rummy-safe-legal-pakistan
+Allow: /blog/card-rummy-latest-version-v1230
 
 # Standard pages
 Allow: /contact-us

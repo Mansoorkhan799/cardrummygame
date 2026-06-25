@@ -1,5 +1,5 @@
 /** Site origin for absolute schema URLs */
-export const SITE_ORIGIN = "https://cardrummyapp.com.pk";
+export const SITE_ORIGIN = "https://cardrummygame.com.pk";
 
 /** Schema.org Organization node reused as creator across ImageObjects */
 export const IMAGE_CREATOR = {

@@ -30,6 +30,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/minimum-requirements-for-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                  Minimum Requirements
+                </Link>
+              </li>
+              <li>
+                <Link href="/how-to-play-and-earn-on-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                  How to Play & Earn
+                </Link>
+              </li>
+              <li>
                 <Link href="/download-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
                   Download
                 </Link>
@@ -72,13 +82,28 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/create-card-rummy-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/blog/how-to-register-bind-email-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
                   Account & Login
                 </Link>
               </li>
               <li>
-                <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
-                  Tips to Win Big
+                <Link href="/blog/card-rummy-tips-tricks-to-win" className="text-gray-300 hover:text-accent transition-colors">
+                  Tips to Win
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/responsible-gaming-guide" className="text-gray-300 hover:text-accent transition-colors">
+                  Responsible Gaming
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/is-card-rummy-safe-legal-pakistan" className="text-gray-300 hover:text-accent transition-colors">
+                  Safety & Legal
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="text-gray-300 hover:text-accent transition-colors">
+                  Terms of Service
                 </Link>
               </li>
               <li>
@@ -118,7 +143,8 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-4 pb-3 text-center text-sm text-gray-400">
-          <p className="mb-0">© 2026 Card Rummy. All rights reserved. | <Link href="/" className="hover:text-accent">cardrummyapp.com.pk</Link></p>
+          <p className="mb-2">18+ only · Play responsibly · Real-money gaming involves financial risk.</p>
+          <p className="mb-0">© 2026 Card Rummy. All rights reserved. | <Link href="/" className="hover:text-accent">cardrummygame.com.pk</Link></p>
         </div>
       </div>
     </footer>

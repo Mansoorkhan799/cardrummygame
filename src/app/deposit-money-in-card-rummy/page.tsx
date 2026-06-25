@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide',
     description: 'Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
-    url: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    url: 'https://cardrummygame.com.pk/deposit-money-in-card-rummy',
     siteName: 'Card Rummy',
     type: 'article',
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa with our complete guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    canonical: 'https://cardrummygame.com.pk/deposit-money-in-card-rummy',
   },
 };
 
@@ -48,7 +48,7 @@ export default function DepositMoneyPage() {
             <div className="mt-10 flex justify-center">
               <div className="relative w-48 h-48 md:w-56 md:h-56">
                 <Image
-                  src="/card-rummy.webp"
+                  src="/card-rummy-game-2026.webp"
                   alt="Card Rummy - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger."
                   title="Card Rummy – Deposit Money via JazzCash & EasyPaisa"
                   width={224}
@@ -293,38 +293,38 @@ export default function DepositMoneyPage() {
             "@graph": [
               {
                 "@type": "Article",
-                "@id": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy#article",
+                "@id": "https://cardrummygame.com.pk/deposit-money-in-card-rummy#article",
                 "headline": "How to Deposit Money in Card Rummy?",
                 "description": "Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.",
-                "url": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy",
+                "url": "https://cardrummygame.com.pk/deposit-money-in-card-rummy",
                 "articleBody": "Card Rummy is an exciting online game where users can play many amazing games daily. Adding funds to the Card Rummy game is easy with JazzCash and EasyPaisa. The process: open app, click shop, select payment method (JazzCash or EasyPaisa), choose amount (Rs 200 to Rs 2000), click Add Chips, enter account number, approve payment request, then wait for funds to appear in your account.",
-                "author": { "@type": "Organization", "name": "Card Rummy", "url": "https://cardrummyapp.com.pk" },
+                "author": { "@type": "Organization", "name": "Card Rummy", "url": "https://cardrummygame.com.pk" },
                 "publisher": {
                   "@type": "Organization",
                   "name": "Card Rummy",
                   "logo": {
                   "@type": "ImageObject",
-                  "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+                  "url": "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp",
                   ...imageObjectLicensing,
                   "creditText": "Card Rummy logo"
                 }
                 },
                 "datePublished": "2026-01-01",
                 "dateModified": "2026-03-13",
-                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy" },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://cardrummygame.com.pk/deposit-money-in-card-rummy" },
                 "inLanguage": "en-US",
                 "hasPart": {
                   "@type": "HowTo",
-                  "@id": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy#howto",
+                  "@id": "https://cardrummygame.com.pk/deposit-money-in-card-rummy#howto",
                   "name": "Deposit Money in Card Rummy"
                 }
               },
               {
                 "@type": "HowTo",
-                "@id": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy#howto",
+                "@id": "https://cardrummygame.com.pk/deposit-money-in-card-rummy#howto",
                 "name": "How to Deposit Money in Card Rummy",
                 "description": "Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa",
-                "url": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy",
+                "url": "https://cardrummygame.com.pk/deposit-money-in-card-rummy",
                 "totalTime": "PT3M",
                 "estimatedCost": { "@type": "MonetaryAmount", "currency": "PKR", "value": "200" },
                 "step": [
@@ -339,7 +339,7 @@ export default function DepositMoneyPage() {
               },
               {
                 "@type": "FAQPage",
-                "@id": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy#faq",
+                "@id": "https://cardrummygame.com.pk/deposit-money-in-card-rummy#faq",
                 "mainEntity": [
                   { "@type": "Question", "name": "How can we add money to our Card Rummy account?", "acceptedAnswer": { "@type": "Answer", "text": "You can add money to your Card Rummy account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request." } },
                   { "@type": "Question", "name": "Is adding funds to Card Rummy secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is safe to add funds to Card Rummy, as it uses a modern security system to protect your personal data and funds." } },
@@ -357,8 +357,8 @@ export default function DepositMoneyPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummyapp.com.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Deposit Money in Card Rummy", "item": "https://cardrummyapp.com.pk/deposit-money-in-card-rummy" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Deposit Money in Card Rummy", "item": "https://cardrummygame.com.pk/deposit-money-in-card-rummy" }
             ]
           })
         }}
