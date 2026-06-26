@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const categories = [
   { name: 'Game Guides', href: '/blog/how-to-play-teen-patti' },
-  { name: 'How-To Tutorials', href: '/blog/how-to-download-card-rummy-apk' },
+  { name: 'How-To Tutorials', href: '/blog/how-to-register-bind-email-card-rummy' },
   { name: 'Payment Guides', href: '/blog/card-rummy-jazzcash-withdrawal' },
   { name: 'Trust & Safety', href: '/blog/is-card-rummy-safe-legal-pakistan' },
   { name: 'Tips & Strategy', href: '/blog/card-rummy-tips-tricks-to-win' },

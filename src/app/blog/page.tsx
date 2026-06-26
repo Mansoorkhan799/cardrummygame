@@ -46,9 +46,6 @@ const categories = [
     badge: 'High Intent',
     desc: 'Step-by-step guides for everything from download to withdrawal.',
     posts: [
-      { slug: 'how-to-download-card-rummy-apk', title: 'How to Download Card Rummy APK (V1.231) — Step-by-Step', date: 'Jun 2026', read: '5 min' },
-      { slug: 'how-to-withdraw-money-card-rummy', title: 'How to Withdraw Money from Card Rummy — JazzCash, EasyPaisa & Bank', date: 'Jun 2026', read: '6 min' },
-      { slug: 'how-to-deposit-card-rummy', title: 'How to Deposit in Card Rummy — All Methods', date: 'Jun 2026', read: '5 min' },
       { slug: 'how-to-register-bind-email-card-rummy', title: 'How to Register & Bind Email on Card Rummy', date: 'Jun 2026', read: '5 min' },
       { slug: 'card-rummy-login-problems-fixes', title: 'Card Rummy Login Problems & Fixes — Complete Guide', date: 'Jun 2026', read: '7 min' },
       { slug: 'how-to-get-card-rummy-welcome-bonus', title: 'How to Get the Card Rummy Welcome Bonus', date: 'Jun 2026', read: '4 min' },
@@ -140,6 +137,7 @@ const categories = [
 
 export default function Blog() {
   const allPosts = categories.flatMap((cat) => cat.posts);
+  const guideCount = allPosts.length;
 
   const blogSchema = {
     '@context': 'https://schema.org',
@@ -185,7 +183,7 @@ export default function Blog() {
         {/* Hero */}
         <div className="text-center mb-14">
           <div className="inline-block bg-[#FFC107]/10 border border-[#FFC107]/30 rounded-full px-4 py-1 text-[#FFC107] text-sm font-medium mb-4">
-            41 Guides · Updated June 2026
+            {guideCount} Guides · Updated June 2026
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Card Rummy Blog</h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
