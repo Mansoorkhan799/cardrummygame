@@ -22,8 +22,8 @@ Allow: /blog/card-rummy-jazzcash-withdrawal
 Allow: /blog/card-rummy-easypaisa-deposit-withdraw
 Allow: /blog/is-card-rummy-safe-legal-pakistan
 Allow: /blog/card-rummy-real-or-fake
-Allow: /blog/best-teen-patti-apps-pakistan-2026
-Allow: /blog/card-rummy-latest-version-v1230
+Allow: /blog/best-teen-patti-apps-pakistan
+Allow: /blog/card-rummy-latest-version
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer

@@ -180,7 +180,7 @@ export default function CardRummyWelcomeBonus() {
           <div className="mt-4 flex justify-center gap-6 text-sm text-gray-400 flex-wrap">
             <Link href="/deposit-money-in-card-rummy" className="hover:text-[#FFC107]">Deposit Guide</Link>
             <Link href="/blog/card-rummy-vip-levels" className="hover:text-[#FFC107]">VIP Levels</Link>
-            <Link href="/blog/card-rummy-bonus-code-2026" className="hover:text-[#FFC107]">All Bonus Offers</Link>
+            <Link href="/blog/card-rummy-bonus-code" className="hover:text-[#FFC107]">All Bonus Offers</Link>
           </div>
         </section>
 
@@ -189,7 +189,7 @@ export default function CardRummyWelcomeBonus() {
           <h2 className="text-xl font-bold text-white mb-4">Related Articles</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { href: '/blog/card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026 — Latest Offers' },
+              { href: '/blog/card-rummy-bonus-code', title: 'Card Rummy Bonus Code 2026 — Latest Offers' },
               { href: '/blog/card-rummy-referral-program', title: 'Card Rummy Referral Program — Earn Per Friend' },
               { href: '/blog/how-to-deposit-card-rummy', title: 'How to Deposit in Card Rummy — All Methods' },
               { href: '/blog/how-to-get-card-rummy-welcome-bonus', title: 'How to Get the Card Rummy Welcome Bonus' },

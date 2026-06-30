@@ -248,7 +248,7 @@ export default function HowToDepositCardRummy() {
             {[
               { href: '/blog/how-to-withdraw-money-card-rummy', title: 'How to Withdraw Money from Card Rummy' },
               { href: '/blog/card-rummy-welcome-bonus', title: 'Card Rummy Welcome Bonus — Claim PKR 1,000 Free' },
-              { href: '/blog/card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026' },
+              { href: '/blog/card-rummy-bonus-code', title: 'Card Rummy Bonus Code 2026' },
               { href: '/blog/card-rummy-jazzcash-withdrawal', title: 'Card Rummy JazzCash Withdrawal Guide' },
               { href: '/blog/card-rummy-easypaisa-deposit-withdraw', title: 'Card Rummy EasyPaisa Deposit & Withdrawal' },
               { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },

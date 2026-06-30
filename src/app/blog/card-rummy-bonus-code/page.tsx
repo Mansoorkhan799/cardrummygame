@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Card Rummy Bonus Code 2026 — Latest Working Offers",
   description: "Looking for a Card Rummy bonus code or promo code in 2026? All bonuses are automatic — no code needed. See every current offer: welcome bonus, referral, daily rebate & more.",
   keywords: ["card rummy bonus code", "card rummy promo code 2026", "card rummy bonus code today", "card rummy referral code", "card rummy offer code pakistan"],
-  alternates: { canonical: "https://cardrummygame.com.pk/blog/card-rummy-bonus-code-2026" },
+  alternates: { canonical: "https://cardrummygame.com.pk/blog/card-rummy-bonus-code" },
   openGraph: {
     title: "Card Rummy Bonus Code 2026 — Latest Working Offers",
     description: "All Card Rummy bonuses are automatic in 2026 — no promo code required. First deposit bonus, daily rebate, referral earnings & more explained.",
-    url: "https://cardrummygame.com.pk/blog/card-rummy-bonus-code-2026",
+    url: "https://cardrummygame.com.pk/blog/card-rummy-bonus-code",
     images: [{ url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp", width: 1200, height: 630, alt: "Card Rummy Bonus Code 2026" }]
   },
   twitter: { card: "summary_large_image", title: "Card Rummy Bonus Code 2026 — Latest Working Offers", description: "No promo code needed — all Card Rummy bonuses are automatic. Full list of 2026 offers inside." },
@@ -25,7 +25,7 @@ export default function CardRummyBonusCode2026() {
       <BlogPostSchema
         title="Card Rummy Bonus Code 2026 — Latest Working Offers"
         description="Looking for a Card Rummy bonus code or promo code in 2026? All bonuses are automatic — no code needed. See every current offer: welcome bonus, referral, daily rebate & more."
-        slug="card-rummy-bonus-code-2026"
+        slug="card-rummy-bonus-code"
         datePublished="2026-06-11"
         dateModified="2026-06-11"
         articleBody="Card Rummy does not use traditional promotional codes or coupon codes in 2026. All bonuses are applied automatically when you meet the conditions — simply register, make a deposit, or invite friends. The first deposit bonus gives you 10% up to PKR 1,000 with no code required. The daily recharge rebate credits 1.5% of your previous-day losses every midnight. The referral program gives you PKR 50 per friend who deposits, plus ongoing commission. VIP members earn weekly rebates from 0.5% to 3% depending on their tier."

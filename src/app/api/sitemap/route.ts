@@ -307,7 +307,7 @@ export async function GET() {
     },
     // New Comparison pages
     {
-      url: '/blog/best-teen-patti-apps-pakistan-2026',
+      url: '/blog/best-teen-patti-apps-pakistan',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.9
@@ -321,7 +321,7 @@ export async function GET() {
     },
     // New Version pages
     {
-      url: '/blog/card-rummy-latest-version-v1230',
+      url: '/blog/card-rummy-latest-version',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9

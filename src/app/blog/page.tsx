@@ -58,7 +58,7 @@ const categories = [
     badge: 'Money Keywords',
     desc: 'Every bonus, promo, and reward Card Rummy offers — fully explained.',
     posts: [
-      { slug: 'card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026 — Latest Working Offers', date: 'Jun 2026', read: '5 min' },
+      { slug: 'card-rummy-bonus-code', title: 'Card Rummy Bonus Code 2026 — Latest Working Offers', date: 'Jun 2026', read: '5 min' },
       { slug: 'card-rummy-welcome-bonus', title: 'Card Rummy Welcome Bonus Explained — How to Claim PKR 1,000 Free', date: 'Jun 2026', read: '5 min' },
       { slug: 'card-rummy-referral-program', title: 'Card Rummy Referral Program — How to Earn PKR 50+ Per Friend', date: 'Jun 2026', read: '6 min' },
       { slug: 'card-rummy-vip-levels', title: 'Card Rummy VIP Levels & Rebates — Bronze to Diamond Explained', date: 'Jun 2026', read: '7 min' },
@@ -87,9 +87,9 @@ const categories = [
     desc: 'How Card Rummy stacks up against every competitor — ranked honestly.',
     posts: [
       { slug: 'card-rummy-vs-competitors', title: 'Card Rummy vs Other Card Apps — Which Is Best in Pakistan?', date: 'Jun 2026', read: '10 min' },
-      { slug: 'best-teen-patti-apps-pakistan-2026', title: 'Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings', date: 'Jun 2026', read: '9 min' },
+      { slug: 'best-teen-patti-apps-pakistan', title: 'Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings', date: 'Jun 2026', read: '9 min' },
       { slug: 'best-real-money-card-games-pakistan', title: 'Best Real Money Card Games in Pakistan 2026 — Ranked & Reviewed', date: 'Jun 2026', read: '8 min' },
-      { slug: 'top-earning-apps-pakistan-2026', title: 'Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)', date: 'Jun 2026', read: '7 min' },
+      { slug: 'top-earning-apps-pakistan', title: 'Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)', date: 'Jun 2026', read: '7 min' },
       { slug: 'card-rummy-alternatives', title: 'Card Rummy Alternatives in Pakistan 2026 — Honest Comparison', date: 'Jun 2026', read: '8 min' },
     ],
   },
@@ -114,7 +114,7 @@ const categories = [
     badge: 'Freshness Signal',
     desc: 'Latest version info, update guide, and version history archive.',
     posts: [
-      { slug: 'card-rummy-latest-version-v1230', title: 'Card Rummy Latest Version V1.231 — What\'s New in 2026', date: 'Jun 2026', read: '6 min' },
+      { slug: 'card-rummy-latest-version', title: 'Card Rummy Latest Version — What\'s New in 2026', date: 'Jun 2026', read: '6 min' },
       { slug: 'card-rummy-old-versions-archive', title: 'Card Rummy Old Versions — Version History & Archive', date: 'Jun 2026', read: '5 min' },
       { slug: 'card-rummy-update-guide', title: 'How to Update Card Rummy to the Latest Version — Step-by-Step', date: 'Jun 2026', read: '4 min' },
     ],

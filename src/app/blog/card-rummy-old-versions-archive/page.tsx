@@ -205,7 +205,7 @@ export default function CardRummyOldVersionsArchive() {
           </a>
           <div className="mt-4 flex justify-center gap-6 text-sm text-gray-400">
             <Link href="/download-card-rummy" className="hover:text-[#FFC107]">Download Guide</Link>
-            <Link href="/blog/card-rummy-latest-version-v1230" className="hover:text-[#FFC107]">What&apos;s New in V1.231</Link>
+            <Link href="/blog/card-rummy-latest-version" className="hover:text-[#FFC107]">What&apos;s New in V1.231</Link>
             <Link href="/blog" className="hover:text-[#FFC107]">More Guides</Link>
           </div>
         </section>
@@ -215,7 +215,7 @@ export default function CardRummyOldVersionsArchive() {
           <h2 className="text-xl font-bold text-white mb-4">Related Articles</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { href: '/blog/card-rummy-latest-version-v1230', title: "Card Rummy Latest Version V1.231 — What's New" },
+              { href: '/blog/card-rummy-latest-version', title: "Card Rummy Latest Version V1.231 — What's New" },
               { href: '/blog/card-rummy-update-guide', title: 'How to Update Card Rummy — Step-by-Step' },
               { href: '/blog/how-to-download-card-rummy-apk', title: 'How to Download Card Rummy APK (V1.231)' },
               { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },

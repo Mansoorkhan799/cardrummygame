@@ -56,9 +56,9 @@ Allow: /blog/mines-game-strategy
 Allow: /blog/card-rummy-welcome-bonus
 Allow: /blog/card-rummy-jazzcash-guide
 Allow: /blog/card-rummy-easypaisa-guide
-Allow: /blog/best-teen-patti-apps-pakistan-2026
+Allow: /blog/best-teen-patti-apps-pakistan
 Allow: /blog/card-rummy-safe-legal-pakistan
-Allow: /blog/card-rummy-latest-version-v1230
+Allow: /blog/card-rummy-latest-version
 
 # Standard pages
 Allow: /contact-us

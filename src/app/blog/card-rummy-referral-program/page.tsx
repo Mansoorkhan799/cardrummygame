@@ -205,7 +205,7 @@ export default function CardRummyReferralProgram() {
               { href: '/blog/card-rummy-welcome-bonus', title: 'Card Rummy Welcome Bonus Explained' },
               { href: '/blog/card-rummy-vip-levels', title: 'Card Rummy VIP Levels & Rebates Explained' },
               { href: '/blog/card-rummy-free-chips-daily-rewards', title: 'Card Rummy Free Chips & Daily Rewards Guide' },
-              { href: '/blog/card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026 — Latest Offers' },
+              { href: '/blog/card-rummy-bonus-code', title: 'Card Rummy Bonus Code 2026 — Latest Offers' },
               { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },
             ].map(link => (
               <Link key={link.href} href={link.href} className="flex items-center gap-2 text-[#FFC107] hover:underline text-sm font-medium">

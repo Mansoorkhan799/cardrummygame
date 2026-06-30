@@ -229,7 +229,7 @@ export default function HowToGetCardRummyWelcomeBonus() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { href: '/blog/card-rummy-welcome-bonus', title: 'Card Rummy Welcome Bonus Explained' },
-              { href: '/blog/card-rummy-bonus-code-2026', title: 'Card Rummy Bonus Code 2026' },
+              { href: '/blog/card-rummy-bonus-code', title: 'Card Rummy Bonus Code 2026' },
               { href: '/blog/card-rummy-referral-program', title: 'Card Rummy Referral Program — Earn Per Friend' },
               { href: '/blog/card-rummy-vip-levels', title: 'Card Rummy VIP Levels & Rebates Explained' },
               { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },

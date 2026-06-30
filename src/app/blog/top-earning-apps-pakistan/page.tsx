@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)",
   description: "Best earning apps in Pakistan 2026 ranked and reviewed. Card Rummy, freelancing, OLX, Shopify, and YouTube — find the right income source for you.",
   keywords: ["earning apps pakistan 2026", "best earning apps pakistan", "make money online pakistan", "how to earn money pakistan 2026", "card rummy earning app pakistan"],
-  alternates: { canonical: "https://cardrummygame.com.pk/blog/top-earning-apps-pakistan-2026" },
+  alternates: { canonical: "https://cardrummygame.com.pk/blog/top-earning-apps-pakistan" },
   openGraph: {
     title: "Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)",
     description: "Best earning apps in Pakistan 2026 ranked and reviewed. Find the right income source — from real-money card games to freelancing.",
-    url: "https://cardrummygame.com.pk/blog/top-earning-apps-pakistan-2026",
+    url: "https://cardrummygame.com.pk/blog/top-earning-apps-pakistan",
     images: [{ url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp", width: 1200, height: 630, alt: "Top Earning Apps Pakistan 2026" }]
   },
   twitter: { card: "summary_large_image", title: "Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)", description: "Ranked guide to the best earning apps in Pakistan 2026, from card games to freelancing platforms." },
@@ -25,7 +25,7 @@ export default function TopEarningAppsPakistan2026() {
       <BlogPostSchema
         title="Top 5 Earning Apps in Pakistan 2026 (With Card Rummy)"
         description="Best earning apps in Pakistan 2026 ranked and reviewed. Card Rummy, freelancing, OLX, Shopify, and YouTube — find the right income source for you."
-        slug="top-earning-apps-pakistan-2026"
+        slug="top-earning-apps-pakistan"
         datePublished="2026-06-11"
         dateModified="2026-06-11"
         articleBody="Mobile earning apps have transformed how Pakistanis generate income. The top earning apps in 2026 include Card Rummy for daily real-money card games, Freelancer and Upwork for skill-based remote work, OLX Pakistan for buy-sell commerce, Shopify for e-commerce businesses, and YouTube and TikTok for content creator monetization. Card Rummy is unique among these as it offers immediate daily earning potential with deposits from PKR 100 and withdrawals to JazzCash and EasyPaisa, though realistic weekly earnings range from PKR 500 to 5,000 for regular players."

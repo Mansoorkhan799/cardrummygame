@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings",
   description: "Top 5 Teen Patti apps for real money in Pakistan 2026. Ranked by payout speed, JazzCash/EasyPaisa support, and verified withdrawal proofs. Card Rummy rated 9.2/10.",
   keywords: ["best teen patti app pakistan 2026", "teen patti real money pakistan", "teen patti app pakistan", "best card game app pakistan", "teen patti jazzcash easypaisa"],
-  alternates: { canonical: "https://cardrummygame.com.pk/blog/best-teen-patti-apps-pakistan-2026" },
+  alternates: { canonical: "https://cardrummygame.com.pk/blog/best-teen-patti-apps-pakistan" },
   openGraph: {
     title: "Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings",
     description: "Top 5 Teen Patti apps for real money in Pakistan 2026, ranked by payout speed and local payment support.",
-    url: "https://cardrummygame.com.pk/blog/best-teen-patti-apps-pakistan-2026",
+    url: "https://cardrummygame.com.pk/blog/best-teen-patti-apps-pakistan",
     images: [{ url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp", width: 1200, height: 630, alt: "Best Teen Patti Apps Pakistan 2026" }]
   },
   twitter: { card: "summary_large_image", title: "Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings", description: "Top 5 real-money Teen Patti apps in Pakistan, ranked and reviewed with verified payout data." },
@@ -128,7 +128,7 @@ export default function BestTeenPattiAppsPakistan2026() {
       <BlogPostSchema
         title="Best Teen Patti Apps in Pakistan 2026 — Real Money Rankings"
         description="Top 5 Teen Patti apps for real money in Pakistan 2026. Ranked by payout speed, JazzCash/EasyPaisa support, and verified withdrawal proofs. Card Rummy rated 9.2/10."
-        slug="best-teen-patti-apps-pakistan-2026"
+        slug="best-teen-patti-apps-pakistan"
         datePublished="2026-06-11"
         dateModified="2026-06-11"
         articleBody="Pakistan's Teen Patti market is dominated by apps that look legitimate but either don't support local payments or use play chips rather than real money. After testing five major apps over 14 days, Card Rummy emerged as the clear leader with verified JazzCash and EasyPaisa withdrawals processed in under 30 minutes, a 500,000-strong player base, and six real-money games. 3Patti Blue is a distant second, while Teen Patti Stars, Adda52, and MPL each have significant limitations for Pakistani users."

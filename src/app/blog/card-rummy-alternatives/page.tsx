@@ -325,7 +325,7 @@ export default function CardRummyAlternatives() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { href: '/blog/card-rummy-vs-competitors', title: 'Card Rummy vs Other Apps — Which Is Best?' },
-              { href: '/blog/best-teen-patti-apps-pakistan-2026', title: 'Best Teen Patti Apps in Pakistan 2026' },
+              { href: '/blog/best-teen-patti-apps-pakistan', title: 'Best Teen Patti Apps in Pakistan 2026' },
               { href: '/blog/is-card-rummy-safe-legal-pakistan', title: 'Is Card Rummy Safe & Legal in Pakistan?' },
               { href: '/blog/how-to-spot-fake-card-rummy-apps', title: 'How to Spot Fake Card Rummy Apps' },
               { href: '/', title: 'Card Rummy Full Review — 14-Day Real Money Test' },

@@ -16,7 +16,7 @@ export const BLOG_SLUGS = [
   "card-rummy-login-problems-fixes",
   "how-to-get-card-rummy-welcome-bonus",
   // Bonus & promo
-  "card-rummy-bonus-code-2026",
+  "card-rummy-bonus-code",
   "card-rummy-welcome-bonus",
   "card-rummy-referral-program",
   "card-rummy-vip-levels",
@@ -29,9 +29,9 @@ export const BLOG_SLUGS = [
   "card-rummy-payment-problems",
   // Comparison
   "card-rummy-vs-competitors",
-  "best-teen-patti-apps-pakistan-2026",
+  "best-teen-patti-apps-pakistan",
   "best-real-money-card-games-pakistan",
-  "top-earning-apps-pakistan-2026",
+  "top-earning-apps-pakistan",
   "card-rummy-alternatives",
   // Trust & safety
   "is-card-rummy-safe-legal-pakistan",
@@ -40,7 +40,7 @@ export const BLOG_SLUGS = [
   "how-to-spot-fake-card-rummy-apps",
   "card-rummy-customer-support",
   // Version
-  "card-rummy-latest-version-v1230",
+  "card-rummy-latest-version",
   "card-rummy-old-versions-archive",
   "card-rummy-update-guide",
   // Informational
@@ -64,8 +64,8 @@ export const PRIORITY_BLOG_SLUGS: BlogSlug[] = [
   "card-rummy-welcome-bonus",
   "card-rummy-jazzcash-withdrawal",
   "card-rummy-easypaisa-deposit-withdraw",
-  "best-teen-patti-apps-pakistan-2026",
+  "best-teen-patti-apps-pakistan",
   "is-card-rummy-safe-legal-pakistan",
   "card-rummy-real-or-fake",
-  "card-rummy-latest-version-v1230",
+  "card-rummy-latest-version",
 ];

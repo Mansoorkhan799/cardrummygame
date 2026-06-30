@@ -226,7 +226,7 @@ export default function HowToDownloadCardRummyApk() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { href: '/blog/how-to-register-bind-email-card-rummy', title: 'How to Register & Bind Email on Card Rummy' },
-              { href: '/blog/card-rummy-latest-version-v1230', title: "Card Rummy Latest Version V1.231 — What's New" },
+              { href: '/blog/card-rummy-latest-version', title: "Card Rummy Latest Version V1.231 — What's New" },
               { href: '/blog/card-rummy-update-guide', title: 'How to Update Card Rummy — Step-by-Step' },
               { href: '/blog/is-card-rummy-safe-legal-pakistan', title: 'Is Card Rummy Safe & Legal in Pakistan?' },
               { href: '/blog/how-to-spot-fake-card-rummy-apps', title: 'How to Spot Fake Card Rummy Apps' },

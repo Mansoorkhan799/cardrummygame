@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Card Rummy Latest Version V1.231 — What's New in 2026",
   description: "Card Rummy V1.231 is the latest version as of June 2026. See what's new: faster JazzCash withdrawals, 7 Up Down game added, UI refresh, and security patches.",
   keywords: ["card rummy latest version", "card rummy v1.231", "card rummy new version 2026", "card rummy update 2026", "card rummy apk latest"],
-  alternates: { canonical: "https://cardrummygame.com.pk/blog/card-rummy-latest-version-v1230" },
+  alternates: { canonical: "https://cardrummygame.com.pk/blog/card-rummy-latest-version" },
   openGraph: {
     title: "Card Rummy Latest Version V1.231 — What's New in 2026",
     description: "Card Rummy V1.231 is the latest version as of June 2026. Faster withdrawals, new games, and security patches.",
-    url: "https://cardrummygame.com.pk/blog/card-rummy-latest-version-v1230",
+    url: "https://cardrummygame.com.pk/blog/card-rummy-latest-version",
     images: [{ url: "https://cardrummygame.com.pk/card-rummy-game-win-real-money-2026.webp", width: 1200, height: 630, alt: "Card Rummy Latest Version V1.231 2026" }]
   },
   twitter: { card: "summary_large_image", title: "Card Rummy Latest Version V1.231 — What's New in 2026", description: "Everything new in Card Rummy V1.231: faster payouts, 7 Up Down added, UI refresh, bug fixes, and security patches." },
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
 
 const DOWNLOAD_URL = "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272";
 
-export default function CardRummyLatestVersionV1230() {
+export default function CardRummyLatestVersion() {
   return (
     <>
       <BlogPostSchema
         title="Card Rummy Latest Version V1.231 — What's New in 2026"
         description="Card Rummy V1.231 is the latest version as of June 2026. See what's new: faster JazzCash withdrawals, 7 Up Down game added, UI refresh, and security patches."
-        slug="card-rummy-latest-version-v1230"
+        slug="card-rummy-latest-version"
         datePublished="2026-06-11"
         dateModified="2026-06-11"
         articleBody="Card Rummy V1.231 is the latest version of the popular real-money card game app in Pakistan, released in June 2026. This update brings significantly improved payout processing — JazzCash withdrawals now complete in 5-15 minutes versus the 30+ minutes in earlier versions. The 7 Up Down game has been added to the main lobby, giving players six real-money games. The UI has received a dark mode refresh with smoother lobby animations. V1.231 also patches an OTP delivery bug affecting some Telenor users and includes an SSL security enhancement for payment transactions. App loading speed is 30% faster on Android 10 and above. The APK is approximately 49 MB and requires Android 5.0 or higher, 2 GB RAM, and 500 MB of free storage."

@@ -379,7 +379,7 @@ export const BLOG_SCHEMA_DATA: Record<string, BlogSchemaExtras> = {
       ["Can I play for free first?", "Use low-stake tables or practice modes where available."],
     ),
   },
-  "card-rummy-latest-version-v1230": {
+  "card-rummy-latest-version": {
     faq: f(
       ["What is the latest Card Rummy version?", "V1.231 as of June 2026."],
       ["What is new in V1.231?", "Faster JazzCash withdrawals, 7 Up Down in lobby, UI refresh, security patches."],
@@ -395,7 +395,7 @@ export const BLOG_SCHEMA_DATA: Record<string, BlogSchemaExtras> = {
       ["Where to download the latest version?", "cardrummygame.com.pk/download-card-rummy"],
     ),
   },
-  "card-rummy-bonus-code-2026": {
+  "card-rummy-bonus-code": {
     faq: f(
       ["Is there a Card Rummy bonus code?", "No traditional promo codes — bonuses are automatic or via referral link."],
       ["What bonuses are available in 2026?", "Welcome bonus, recharge rebate, referral, VIP rebates, daily login."],
@@ -459,7 +459,7 @@ export const BLOG_SCHEMA_DATA: Record<string, BlogSchemaExtras> = {
       ["Are competitor apps safe?", "Verify payment proofs and avoid apps with no Pakistani support."],
     ),
   },
-  "best-teen-patti-apps-pakistan-2026": {
+  "best-teen-patti-apps-pakistan": {
     faq: f(
       ["What is the best Teen Patti app in Pakistan 2026?", "Card Rummy ranks #1 for real-money play with JazzCash/EasyPaisa support."],
       ["Is Teen Patti Stars real money?", "Limited Pakistan payment support compared to Card Rummy."],
@@ -475,7 +475,7 @@ export const BLOG_SCHEMA_DATA: Record<string, BlogSchemaExtras> = {
       ["What is the safest platform?", "Use apps with JazzCash/EasyPaisa integration and verified payout history."],
     ),
   },
-  "top-earning-apps-pakistan-2026": {
+  "top-earning-apps-pakistan": {
     faq: f(
       ["Can you earn money from Card Rummy?", "Yes, but winnings are not guaranteed — treat as entertainment."],
       ["How much can you earn weekly?", "Regular players report PKR 500–5,000/week; results vary."],
